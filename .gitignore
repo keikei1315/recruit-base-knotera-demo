@@ -1,0 +1,15 @@
+# Local editor / operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+
+# Keep local credentials and temporary files out of Git
+.env
+.env.*
+!.env.example
+node_modules/
+work/
+outputs/
