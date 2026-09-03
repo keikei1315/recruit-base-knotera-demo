@@ -7,15 +7,17 @@
 - 公開に必要なHTML・CSS・JavaScript・画像を同じフォルダにまとめています。
 - `.nojekyll` を追加し、静的ファイルとして配信できる構成にしています。
 - `.gitignore` で認証情報や作業用ファイルの誤追加を防ぎます。
-- GitHubの保存先リポジトリ・認証は未設定です。公開URLはまだ発行していません。
+- GitHubの保存先： https://github.com/keikei1315/recruit-base-knotera-demo
+- GitHub Pagesの公開先： https://keikei1315.github.io/recruit-base-knotera-demo/
+- 公開元は `main` ブランチのルートです。
 
 ## GitHub Pagesへ接続する手順
 
-1. 使用するGitHubアカウントと保存先リポジトリを決定します。
-2. このサイトのファイルをリポジトリの `main` ブランチに保存します。
-3. GitHubのリポジトリ設定 → Pages → Build and deployment で、Sourceを「Deploy from a branch」、Branchを「main」、フォルダを「/(root)」に設定します。
-4. 公開処理が完了するとGitHub側で表示されるURLを確認します。
-5. Recruit BaseのLP内にある `samples.js` のKNOTERAの `url` を、その公開URLへ変更します。
+1. このフォルダでサイトを編集し、ブラウザで確認します。
+2. 変更をGitにコミットして、`origin` の `main` ブランチへpushします。
+3. GitHubのActionsで公開処理の完了を確認します。
+4. 上記のGitHub Pages URLを開き、更新を確認します。
+5. LP側のKNOTERAのリンクは `samples.js` で管理します。
 
 公開後は同じブランチへ更新を送ることで、同じ閲覧URLへ変更を反映できます。
 

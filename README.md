@@ -4,6 +4,10 @@ Recruit Base 営業提案用の1ページ採用サイト。架空のWeb制作・
 
 ## 開き方
 
+公開サイト： https://keikei1315.github.io/recruit-base-knotera-demo/
+
+GitHub： https://github.com/keikei1315/recruit-base-knotera-demo
+
 `index.html` をブラウザで開いて閲覧できます。インストールやビルドは不要です。
 このフォルダ全体を静的Webサーバーへ配置しても動作します。外部CDN・API・外部フォントへの接続はありません。
 
